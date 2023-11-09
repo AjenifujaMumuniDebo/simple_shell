@@ -1,7 +1,6 @@
 #ifndef SIMPLE_SHELL
 #define SIMPLE_SHELL
 
-/* included standard library headers */
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
@@ -25,7 +24,7 @@
 #define TRUE (1 == 1)
 #define FALSE (!TRUE)
 
-/* this defines the macros for token_t struct */
+/* defines the macros for token_t struct */
 #define TOKEN_STRING     0
 #define TOKEN_SEMICOLON  1
 #define TOKEN_PIPE       2
@@ -98,14 +97,14 @@ void replace_str(char **old_str, char *new_str, int i, int j, int flg);
 char *_str_replace(char *string, unsigned int start, unsigned int end,
 				   char *rep);
 
-/* -----custom C std lib----- */
+/* --custom C std lib-- */
 char _isspace(char c);
 int _atoi(char *s);
 void _perror(char *string);
 void _memmove(void *dest, void *src, size_t n);
 int is_uint(char *num);
 
-/* ---------------custom malloc--------------- */
+/* --custom malloc-- */
 char *mem_reset(char *str, int bytes);
 void *safe_malloc(int size);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
