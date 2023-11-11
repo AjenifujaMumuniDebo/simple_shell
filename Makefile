@@ -6,6 +6,7 @@ EXENAME=hsh
 CFILES=\
 	alias1.c\
 	alias2.c\
+	inventory.c\
 
 GLOBAL_HEADERS=\
 	shell.h
