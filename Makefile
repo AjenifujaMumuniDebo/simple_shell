@@ -5,6 +5,7 @@ EXENAME=hsh
 
 CFILES=\
 	alias1.c\
+	alias2.c\
 
 GLOBAL_HEADERS=\
 	shell.h
