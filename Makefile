@@ -7,6 +7,9 @@ CFILES=\
 	alias1.c\
 	alias2.c\
 	inventory.c\
+	builtin_1.c\
+	builtin_2.c\
+	cd.c\	
 
 GLOBAL_HEADERS=\
 	shell.h
