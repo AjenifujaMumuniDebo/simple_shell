@@ -16,6 +16,8 @@ CFILES=\
 	file_io.c\
 	free.c\
 	getline.c\
+	helper1.c\
+	helper2.c\
 GLOBAL_HEADERS=\
 	shell.h
 
