@@ -18,6 +18,10 @@ CFILES=\
 	getline.c\
 	helper1.c\
 	helper2.c\
+	history.c\
+	mem.c\
+	parser_1.c\
+	parser_2.c\
 GLOBAL_HEADERS=\
 	shell.h
 
