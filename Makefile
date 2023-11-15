@@ -14,6 +14,8 @@ CFILES=\
 	env2.c\
 	execute.c\
 	file_io.c\
+	free.c\
+	getline.c\
 GLOBAL_HEADERS=\
 	shell.h
 
