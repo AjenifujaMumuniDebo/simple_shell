@@ -13,6 +13,7 @@ CFILES=\
 	env1.c\
 	env2.c\
 	execute.c\
+	file_io.c\
 GLOBAL_HEADERS=\
 	shell.h
 
