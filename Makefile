@@ -22,6 +22,16 @@ CFILES=\
 	mem.c\
 	parser_1.c\
 	parser_2.c\
+	link_path.c\
+	pipeline.c\
+	parsetree.c\
+	custom_stdlib.c\
+	str_funcs1.c\
+	str_funcs2.c\
+	str_funcs3.c\
+
+
+
 GLOBAL_HEADERS=\
 	shell.h
 
