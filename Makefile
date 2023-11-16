@@ -9,7 +9,7 @@ CFILES=\
 	inventory.c\
 	builtin_1.c\
 	builtin_2.c\
-	cd.c\	
+	cd.c\
 	env1.c\
 	env2.c\
 	execute.c\
