@@ -29,7 +29,10 @@ CFILES=\
 	str_funcs1.c\
 	str_funcs2.c\
 	str_funcs3.c\
-
+	tokenizer.c\
+	tokens.c\
+	processor.c\
+	printer.c
 
 
 GLOBAL_HEADERS=\
